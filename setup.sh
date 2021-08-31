@@ -1,9 +1,9 @@
-#!/bin/bash
+#!bin/bash
 
 # This is script which I use to install Xorg and Kde
 
 # Check if script is not running as sudo
-USER_ID =`id -u`
+USER_ID=`id -u`
 if [ $USER_ID -ne 0 ]
 then
     echo 'Please run this file as sudo'
