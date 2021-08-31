@@ -11,35 +11,35 @@ then
     exit
 fi
 
-echo '===> Installing Xorg'
+echo -e '===> Installing Xorg \n'
 pacman -S --noconfirm xorg xorg-xinit xorg-twm xorg-xclock xterm
 
-echo '===> Installing kde-plasma'
+echo -e '\n\n===> Installing kde-plasma \n'
 pacman -S --noconfirm plasma 
 
 
-echo '===> Insatalling Kde-applications'
+echo -e '\n\n===> Insatalling Kde-applications \n'
 
-echo '===> From kde-graphics-meta'
+echo -e '\n\n===> From kde-graphics-meta \n'
 pacman -S --noconfirm kamera kdegraphics-thumbnails okular skanlite
 
-echo '===> From kde-multimedia-meta'
+echo -e '\n\n===> From kde-multimedia-meta \n'
 pacman -S --noconfirm ffmpegtumbs
 
-echo '===> From kde-network-meta'
+echo -e '\n\n===> From kde-network-meta \n'
 pacman -S --noconfirm kdeconnect kdenetwork-filesharing kget kio-extras
 
-echo '===> From kde-sdk-meta'
+echo -e '\n\n===> From kde-sdk-meta \n'
 pacman -S --noconfirm dolphin-plugins
 
-echo '===> From kde-system-meta'
+echo -e '\n\n===> From kde-system-meta \n'
 pacman -S --noconfirm dolphin khelpcenter ksystemlog
 
-echo '===> From kde-utilities-meta'
+echo -e '\n\n===> From kde-utilities-meta \n'
 pacman -S --noconfirm ark kate keditbookmarks kfind kwalletmanager print-manager
 
 
-echo '===> Enabling sddm and network manager'
+echo -e '\n\n===> Enabling sddm and network manager \n'
 systemctl enable sddm
 system enable NetworkManager
 
