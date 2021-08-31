@@ -33,10 +33,10 @@ echo '===> From kde-sdk-meta'
 pacman -S --noconfirm dolphin-plugins
 
 echo '===> From kde-system-meta'
-pacman -S dolphin khelpcenter ksystemlog
+pacman -S --noconfirm dolphin khelpcenter ksystemlog
 
 echo '===> From kde-utilities-meta'
-pacman -S ark kate keditbookmarks kfind kwalletmanager print-manager
+pacman -S --noconfirm ark kate keditbookmarks kfind kwalletmanager print-manager
 
 
 echo '===> Enabling sddm and network manager'
