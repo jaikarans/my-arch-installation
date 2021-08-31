@@ -21,10 +21,10 @@ pacman -S --noconfirm plasma
 echo -e '\n\n===> Insatalling Kde-applications \n'
 
 echo -e '\n\n===> From kde-graphics-meta \n'
-pacman -S --noconfirm kamera kdegraphics-thumbnails okular skanlite
+pacman -S --noconfirm kamera kdegraphics-thumbnailers okular skanlite
 
 echo -e '\n\n===> From kde-multimedia-meta \n'
-pacman -S --noconfirm ffmpegtumbs
+pacman -S --noconfirm ffmpegthumbs
 
 echo -e '\n\n===> From kde-network-meta \n'
 pacman -S --noconfirm kdeconnect kdenetwork-filesharing kget kio-extras
@@ -41,5 +41,5 @@ pacman -S --noconfirm ark kate keditbookmarks kfind kwalletmanager print-manager
 
 echo -e '\n\n===> Enabling sddm and network manager \n'
 systemctl enable sddm
-system enable NetworkManager
+systemctl enable NetworkManager
 
