@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 # This is script which I use to install Xorg and Kde
 
