@@ -36,7 +36,7 @@ echo -e '\n\n===> From kde-system-meta \n'
 pacman -S --noconfirm dolphin khelpcenter ksystemlog
 
 echo -e '\n\n===> From kde-utilities-meta \n'
-pacman -S --noconfirm ark kate keditbookmarks kfind kwalletmanager print-manager
+pacman -S --noconfirm ark kate keditbookmarks kfind kwalletmanager print-manager konsole
 
 
 echo -e '\n\n===> Enabling sddm and network manager \n'
