@@ -6,40 +6,43 @@
 USER_ID=`id -u`
 if [ $USER_ID -ne 0 ]
 then
-    echo 'Please run this file as sudo'
-    echo 'sudo setup.sh'
+    printf '\33[0;31m Please run this file as sudo \n'
+    printf '\t sudo setup.sh \33[0m'
     exit
 fi
 
-echo -e '===> Installing Xorg \n'
+# \33[0;31m is color red
+# \33[0;32m is color green
+# \33[0m   is color white
+printf '\33[0;32m ===> Installing Xorg \n \33[0m'
 pacman -S --noconfirm xorg xorg-xinit xorg-twm xorg-xclock xterm
 
-echo -e '\n\n===> Installing kde-plasma \n'
+printf '\33[0;32m \n\n===> Installing kde-plasma \n \33[0m'
 pacman -S --noconfirm plasma 
 
 
-echo -e '\n\n===> Insatalling Kde-applications \n'
+printf '\33[0;32m \n\n===> Insatalling Kde-applications \n \33[0m'
 
-echo -e '\n\n===> From kde-graphics-meta \n'
+printf '\33[0;32m \n\n===> From kde-graphics-meta \n \33[0m'
 pacman -S --noconfirm kamera kdegraphics-thumbnailers okular skanlite
 
-echo -e '\n\n===> From kde-multimedia-meta \n'
+printf '\33[0;32m \n\n===> From kde-multimedia-meta \n \33[0m'
 pacman -S --noconfirm ffmpegthumbs
 
-echo -e '\n\n===> From kde-network-meta \n'
+printf '\33[0;32m \n\n===> From kde-network-meta \n \33[0m'
 pacman -S --noconfirm kdeconnect kdenetwork-filesharing kget kio-extras
 
-echo -e '\n\n===> From kde-sdk-meta \n'
+printf '\33[0;32m \n\n===> From kde-sdk-meta \n \33[0m'
 pacman -S --noconfirm dolphin-plugins
 
-echo -e '\n\n===> From kde-system-meta \n'
+echo -e '\33[0;32m \n\n===> From kde-system-meta \n \33[0m'
 pacman -S --noconfirm dolphin khelpcenter ksystemlog
 
-echo -e '\n\n===> From kde-utilities-meta \n'
+printf '\33[0;32m \n\n===> From kde-utilities-meta \n \33[0m'
 pacman -S --noconfirm ark kate keditbookmarks kfind kwalletmanager print-manager konsole
 
 
-echo -e '\n\n===> Enabling sddm and network manager \n'
+printf '\33[0;32m \n\n===> Enabling sddm and network manager \n \33[0m'
 systemctl enable sddm
 systemctl enable NetworkManager
 
