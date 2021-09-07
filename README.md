@@ -27,57 +27,59 @@ it includes the Xorg and plasma desktop environment along with some use-full Kde
 
 ### kde-graphics-meta
 
-* **kamera**
+* **kamera** - Tool to take picture and Video via webcam
 
-* **kdegraphics-thumbnailers**
+* **kdegraphics-thumbnailers** - Creates Thumbnails for various graphics file format, use by **dolphin**
 
-* **okular skanlite**
+* **okular** - Document Viewer
 
-* **spectacle**
+* **skanlite** - Scans the Images
+
+* **spectacle** - To take the Screenshot
 
 
 ### kde-multimedia-meta
 
-* **ffmpegthumbs**
+* **ffmpegthumbs** - Video Thumbnail Creator, use by File Manager (**dolphin**)
 
 
 ### kde-network-meta
 
-* **kdeconnect**
+* **kdeconnect** - File Transfer and Sharing
 
 * **kdenetwork-filesharing**
 
-* **kget**
+* **kget** - Download Manager
 
 * **kio-extras**
 
 
 ### kde-sdk-meta
 
-* **dolphin-plugins**
+* **dolphin-plugins** - Plugins for File Manager
 
 
 ### kde-system-meta
 
-* **dolphin**
+* **dolphin** - File Manager
 
-* **khelpcenter**
+* **khelpcenter** - To Read the Documentaion of Kde
 
-* **ksystemlog**
+* **ksystemlog** - To See all the log like Kernel log, System Log
 
 ### kde-utilities-meta
 
-* **ark** - File archiver and compresser
+* **ark** - File Archiver and Compresser
 
-* **kate** - A text and code editor
+* **kate** - A Text and Code Editor
 
 * **keditbookmarks**
 
-* **kfind** - Search tool used by KRunner
+* **kfind** - Search Tool used by KRunner
 
-* **kwalletmanager** - Password manager
+* **kwalletmanager** - Password Manager
 
 * **print-manager**
 
-* **konsole** - Terminal for plasma
+* **konsole** - Terminal
 
