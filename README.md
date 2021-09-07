@@ -67,17 +67,17 @@ it includes the Xorg and plasma desktop environment along with some use-full Kde
 
 ### kde-utilities-meta
 
-* **ark**
+* **ark** - File archiver and compresser
 
-* **kate**
+* **kate** - A text and code editor
 
 * **keditbookmarks**
 
-* **kfind**
+* **kfind** - Search tool used by KRunner
 
-* **kwalletmanager**
+* **kwalletmanager** - Password manager
 
 * **print-manager**
 
-* **konsole**
+* **konsole** - Terminal for plasma
 
