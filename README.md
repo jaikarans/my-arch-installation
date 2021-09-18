@@ -37,6 +37,8 @@ it includes the Xorg and plasma desktop environment along with some use-full Kde
 
 * **spectacle** - To take the Screenshot
 
+* **gwenview** - Image viewer for kde
+
 
 ### kde-multimedia-meta
 

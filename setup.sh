@@ -24,7 +24,7 @@ pacman -S --noconfirm plasma
 printf '\33[0;32m \n\n===> Insatalling Kde-applications \n \33[0m'
 
 printf '\33[0;32m \n\n===> From kde-graphics-meta \n \33[0m'
-pacman -S --noconfirm kamera kdegraphics-thumbnailers okular skanlite spectacle
+pacman -S --noconfirm kamera kdegraphics-thumbnailers okular skanlite spectacle gwenview
 
 printf '\33[0;32m \n\n===> From kde-multimedia-meta \n \33[0m'
 pacman -S --noconfirm ffmpegthumbs
